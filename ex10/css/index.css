@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+#wrapper{
+    display: flex;
+    height: 100%;
+}
+#right{
+    display: flex;
+    background-image: url(../css/login-bg.jpg);
+    width: 70%;
+    height: 100%;
+}
+#left{
+    display: flex;
+    background-color: rgb(29, 26, 26);
+    width: 30%;
+    height: 100%;
+}
